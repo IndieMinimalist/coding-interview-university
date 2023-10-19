@@ -634,7 +634,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [x] pop() - remove from end, return value
     - [x] delete(index) - delete item at index, shifting all trailing elements left
     - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
-    - [X] find(item) - looks for value and returns first index with that value, -1 if not found
+    - [x] find(item) - looks for value and returns first index with that value, -1 if not found
     - [x] resize(new_capacity) // private function
       - when you reach capacity, resize to double the size
       - when popping an item, if size is 1/4 of capacity, resize to half
@@ -647,31 +647,31 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Linked Lists
 
-  - [ ] Description:
+  - [x] Description:
     - [x] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
       - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
       - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-      - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-      - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-  - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
-  - [ ] Linked List vs Arrays:
+      - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+      - [x] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+  - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
+  - [x] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
     - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-  - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-  - [ ] Gotcha: you need pointer to pointer knowledge:
+  - [x] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+  - [x] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
   - [ ] Implement (I did with tail pointer & without):
-    - [ ] size() - returns number of data elements in list
-    - [ ] empty() - bool returns true if empty
-    - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-    - [ ] push_front(value) - adds an item to the front of the list
-    - [ ] pop_front() - remove front item and return its value
-    - [ ] push_back(value) - adds an item at the end
-    - [ ] pop_back() - removes end item and returns its value
-    - [ ] front() - get value of front item
-    - [ ] back() - get value of end item
+    - [x] size() - returns number of data elements in list
+    - [x] empty() - bool returns true if empty
+    - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
+    - [x] push_front(value) - adds an item to the front of the list
+    - [x] pop_front() - remove front item and return its value
+    - [x] push_back(value) - adds an item at the end
+    - [x] pop_back() - removes end item and returns its value
+    - [x] front() - get value of front item
+    - [x] back() - get value of end item
     - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
     - [ ] erase(index) - removes node at given index
     - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
