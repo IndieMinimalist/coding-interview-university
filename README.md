@@ -746,7 +746,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
   - [x] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
   - [x] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
   - [x] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
-  - [ ] Implement:
+  - [x] Implement:
     - binary search (on sorted array of integers)
     - binary search using recursion
 
