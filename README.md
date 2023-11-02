@@ -755,9 +755,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
     - [x] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
     - [x] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-    - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-    - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
-    - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+    - [x] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+    - [x] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+    - [x] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
     - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
     - [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
   - [ ] 2s and 1s complement
